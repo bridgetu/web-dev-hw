@@ -1,11 +1,11 @@
-PROJECT TWO README.md
+#PROJECT TWO README.md
 
 ## Bridget Unterreiner
 
 This project will span over the course of three weeks.
 
 ---
-## PART 1
+## PART 1/WEEK 1
 
 ### What I Learned...
 
