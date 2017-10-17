@@ -16,6 +16,15 @@ This week was filled with new material! I learned so much more about the "behind
 I became a bit frustrated when altering the aesthetic based aspects of my site. It can be upsetting when you're envisioning an idea in your head and can't find the proper code to acheive the visualization! Obviously, the ability to create more visually complex sites will come with time and practice... but the internet is a great resource for enlisting help when you get stuck!
 
 --- 
+## PART 2/WEEK 2
+
+### What I learned...
+
+This week I learned that the sky is the limit when you are creating your own site from scratch. With enough knowledge there is nothing you can't create. I definitely gained an appreciation for more "complex' websites that I use on a regular basis. Even "simple" websites have a lot more to them than meets the eye. 
+
+### What I Struggled With...
+
+I was overwhelmed with new challenges this week due to the amount of new skills we were expected to apply to our project! Difficulty arose when created the "forms" page. It just seems that there is a lot of technicalities when developing them, especially when you are unfamilar with the roles that each different type of form plays!
 
 ```
 "Digital design is like painting, except the paint never dries."
