@@ -47,7 +47,7 @@ This project will span over the course of three weeks.
 ---
 ## FONT
 
-### I think I will use ["ROBOTO"](https://fonts.google.com/specimen/Roboto) for my site.
+### I think I will use ["ROBOTO"](https://fonts.google.com/specimen/Roboto) from Google Fonts for my site.
 
 ---
 ## AESTHETIC
