@@ -14,9 +14,7 @@ This project will span over the course of three weeks.
 
 ### A possible writing sample from the book's intro that captures a central theme in this piece of Munari's work...
 
-```
-"It's mother's day, it's father's day, it's grandma's day, it's little brother's first birthday, mom's friend has had a new baby, its the carpenter's name-day, uncle George is here with aunt Ester, Ines is marrying Miro, Dnate has won a bicycle race, Emma has got better...How can we celebrate all these events, it would take bags of money to buy lots of flowers to put in vases of china, silver, pottery, cut glass, earthenware, pewter. But children don't have money, only a longing to have fun, so all we need is a stalk of grass and a daisy placed lovingly in a small receptacle foun in the toy drawer. What matters is the love with which the little flower and stalk of grass (that one there in particular and not that other one), are chosen, more than how much there is or how much it costs."
-```
+> "It's mother's day, it's father's day, it's grandma's day, it's little brother's first birthday, mom's friend has had a new baby, its the carpenter's name-day, uncle George is here with aunt Ester, Ines is marrying Miro, Dnate has won a bicycle race, Emma has got better...How can we celebrate all these events, it would take bags of money to buy lots of flowers to put in vases of china, silver, pottery, cut glass, earthenware, pewter. But children don't have money, only a longing to have fun, so all we need is a stalk of grass and a daisy placed lovingly in a small receptacle foun in the toy drawer. What matters is the love with which the little flower and stalk of grass (that one there in particular and not that other one), are chosen, more than how much there is or how much it costs."
 
 --- 
 ## AUTHOR BIO

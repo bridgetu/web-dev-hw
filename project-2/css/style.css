@@ -1,0 +1,27 @@
+body {
+    background-color: white;
+    font-family: 'Shadows Into Light';
+    
+}
+
+p {color: black;}
+
+h2 {
+    color: black;
+}
+
+blockquote {
+    color: #C98D97;
+}
+
+#container {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+#container h1 {
+    font-size: 45px;
+    text-align: center;
+}
