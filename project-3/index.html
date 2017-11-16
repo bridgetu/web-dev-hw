@@ -9,33 +9,58 @@
     <title>Home</title>
     <style>
         .review-1 {
-            background-color: #FFAE42;
+            font-size: 20px;
+            color: white;
+            background-color: #FC4600;
+            float: right;
+            width: 600px;
+            padding: 15px;
+            margin: 15px;
         }
 
-        .review-2 {
-            background-color: #FFAE42;
-        }
+
     </style>
 </head>
 <body>
+
     <div id="container">
-        <ul id="nav-list">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./pages/about.html">About</a></li>
-            <li><a href="./pages/sample.html">Sample</a></li>
-            <li><a href="./pages/contact.html">Contact</a></li>
-        </ul>
-    
-        <h1 id="page-title">Awesome Book Review</h1>
-    
-        <p>This is literally the greatest review, ever.</p>
-        <blockquote>It looks really fancy as a quote.</blockquote>
-    
-        <div class="review-1">
-            <p>This is the first review</span></p>
+
+        <header>
+            <img id="logo" src="./images/logo.jpg">
+            <h1 id="page-title">"a flower with love"</h1>
+        </header>
+
+        <div id="nav-list">
+            <div class="nav-item"><a href="./index.html">Home</a></div>
+            <div class="nav-item dropdown">
+                <a href="#">About</a>
+                <div class="dropdown-content">
+                    <div class="dropdown-item">
+                        <a href="./pages/about.html">The Author</a>
+                    </div>
+                    <div class="dropdown-item">
+                        <a href="https://www.moma.org/artists/4163">More Info</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-item"><a href="./pages/sample.html">Sample</a></div>
+            <div class="nav-item"><a href="./pages/contact.html">Contact</a></div>
         </div>
-        <div class="review-2">
-            <p>This is the second review</p>
+        
+        <h1 id="page-title">Book Review</h1>
+        
+        <div id="content">
+            <div class="aside">
+                <img src="./images/book_cover.jpg" alt="Bruno Munari">
+                <small class="caption">"a flower with love" by Bruno Munari</small>
+            </div>
+            <h2>"A flower with love" is Bruno Munari's interpretation of the Japanese art of ikebana, his inspiration for the twelve spare compositions of leaves, flowers, moss, etc., displayed here in full-color photographs and described in small paragraphs that give readers suggestions for making gift arrangements of their own..." <br>- Kirkus Reviews</h2>
+        
+            <div class="review-1">
+                <p>"...In A Flower with Love, the beloved Italian artist and designer lets us in on the secret... With full-color images of Munari's whimsical and inventive creations in each spread, we learn that flower arranging is not an obscure art but a natural gesture requiring more care and imagination than money. Munari's examples are not to be copied slavishly; they represent examples to aid the reader in uncovering their own natural aesthetic sensibilities."<br>- Good Reads contributor </span></p>
+            </div>
+            
+            </div>
         </div>
     </div>
 </body>

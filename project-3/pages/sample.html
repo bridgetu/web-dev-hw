@@ -15,20 +15,40 @@
 </head>
 <body>
     <div id="container">
-        <ul id="nav-list">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./sample.html">Sample</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-        </ul>
+        <header>
+            <img id="logo" src="../images/logo.jpg">
+            <h1 id="page-title">"a flower with love"</h1>
+        </header>
+
+        <div id="nav-list">
+            <div class="nav-item"><a href="../index.html">Home</a></div>
+            <div class="nav-item dropdown">
+                <a href="#">About</a>
+                <div class="dropdown-content">
+                    <div class="dropdown-item">
+                        <a href="./about.html">The Author</a>
+                    </div>
+                    <div class="dropdown-item">
+                        <a href="https://www.moma.org/artists/4163">More Info</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-item"><a href="./sample.html">Sample</a></div>
+            <div class="nav-item"><a href="./contact.html">Contact</a></div>
+        </div>
         
         <h1 id="page-title">Sample</h1>
+        <h2>an excerpt from the book's introdution...</h2>        
         
-        <p class="big-first-letter">This page will contain the full piece or sample portion from a written work.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda expedita quaerat nesciunt temporibus quis atque esse natus doloribus, tempore eum perspiciatis veniam sit architecto doloremque illo incidunt fuga laborum amet!</p>
+            <div class="aside">
+                <p>
+                    "What matters is the love with which the little flower and stalk of grass (that one there in particular and not that other one), are chosen, more than how much there is or how much it costs."</p>       
+                </p>
+            </div>
         
-        <h2>A sub-section of the page</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque quis sit qui quibusdam corporis, accusantium voluptatum assumenda fuga velit! Eveniet labore veritatis dolorem cumque, et debitis cupiditate itaque est!</p>
-    </div>
+            <p class="big-first-letter"></p>
+            <p> "It's mother's day, it's father's day, it's grandma's day, it's little brother's first birthday, mom's friend has had a new baby, its the carpenter's name-day, uncle George is here with aunt Ester, Ines is marrying Miro, Dante has won a bicycle race, Emma has got better...How can we celebrate all these events, it would take bags of money to buy lots of flowers to put in vases of china, silver, pottery, cut glass, earthenware, pewter. But children don't have money, only a longing to have fun, so all we need is a stalk of grass and a daisy placed lovingly in a small receptacle foun in the toy drawer. What matters is the love with which the little flower and stalk of grass (that one there in particular and not that other one), are chosen, more than how much there is or how much it costs."</p>
+        
+        </div>
 </body>
 </html>

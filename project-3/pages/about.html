@@ -7,23 +7,50 @@
     <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/style.css">
     <title>About</title>
+
+    <style>
+            p::first-letter {
+                font-size: 40px;
+            }
+        </style>
 </head>
 <body>
     <div id="container">
-        <ul id="nav-list">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./sample.html">Sample</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-        </ul>
+        <header>
+            <img id="logo" src="../images/logo.jpg">
+            <h1 id="page-title">"a flower with love"</h1>
+        </header>
+
+        <div id="nav-list">
+            <div class="nav-item"><a href="../index.html">Home</a></div>
+            <div class="nav-item dropdown">
+                <a href="#">About</a>
+                <div class="dropdown-content">
+                    <div class="dropdown-item">
+                        <a href="./about.html">The Author</a>
+                    </div>
+                    <div class="dropdown-item">
+                        <a href="https://www.moma.org/artists/4163">More Info</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-item"><a href="./sample.html">Sample</a></div>
+            <div class="nav-item"><a href="./contact.html">Contact</a></div>
+        </div>
     
         <h1 id="page-title">About the Author</h1>
     
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sunt veniam corrupti fuga velit iusto, nulla ut qui enim error libero officia pariatur excepturi cumque odit? Accusantium cumque soluta sapiente?</p>
+        <div class="aside">
+            <img src="../images/the_author.jpg" alt="Bruno Munari">
+            <small class="caption">Bruno Munari</small>
+        </div>
+
+        <p class="big-first-letter"></p>
+        <p>Bruno Munari (October 24, 1907, Milan – September 30, 1998, Milan) was an Italian artist, designer, and inventor who contributed fundamentals to many fields of visual arts (painting, sculpture, film, industrial design, graphic design) in modernism, futurism, and concrete art, and in non visual arts (literature, poetry) with his research on games, didactic method, movement, tactile learning, kinesthetic learning, and creativity.</p>
     
-        <blockquote>Style this to the moon. –Profound Quote</blockquote>
-    
-        <img src="http://via.placeholder.com/350x150" alt="This is for accessibility.">
+        <div class="blockquote"
+                <blockquote>"To complicate is simple, to simplify is complicated... Everybody is able to complicate. Only a few can simplify." <br><br> -Bruno Munari</blockquote>
+        </div>
     </div>
 </body>
 </html>

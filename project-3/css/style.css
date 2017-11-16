@@ -1,15 +1,16 @@
 body {
-    background-color: pink;
-    overflow: hidden;
+    background-color: rgba(252, 67, 0, 0.411);
+    overflow: scroll;
 }
 
 #container {
     padding: 10px 10px 0 10px;;
-    height: 100vh;
+    height: 150vh;
     background-color: white;
     width: 650px;
     margin-left: auto;
     margin-right: auto;
+    border: 20px solid #FC4600;
 }
 
 * {
@@ -17,27 +18,111 @@ body {
 }
 
 #nav-list {
-    list-style-type: none;
     text-align: center;
+    margin-top: 20px;
+}
+#nav-list .nav-item {
+    display: inline-block;
+    background-color: #266A2E;
+    padding: 10px 25px;
+}
+#nav-list .nav-item > a {
+    text-decoration: none;
+    color: white;
 }
 
 h1, h2 {
     text-align: center;
-    font-family: 'Quicksand', sans-serif
+    font-family: 'Fjalla One', sans-serif
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 45px;
     color: #FC4600;
 }
 
+h1#page-title {
+    margin: 10px 0;
+}
+
+#logo {
+    float: left;
+}
+
 h2 {
-    font-size: 40px;
+    font-size: 25px;
     padding: 5px;
-    color: rgba(252, 67, 0, 0.616);
-    background-color: rgb(255, 230, 234);
+    color: #266A2E;
+    background-color:rgba(158, 174, 179, 0.459);
 }
 
 p {
     text-indent: 25px;
+}
+
+header {
+    overflow: hidden;
+}
+
+#content {
+    margin-top: 20px;
+    clear: left;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+    margin-top: 0.5em;
+    background-color: #FC4600;
+    min-width: 92px;
+    right: 0;
+}
+
+.dropdown-content .dropdown-item {
+    padding: 9px 0;
+}
+
+.dropdown-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    background-color: white;
+    color: #FC4600;
+}
+
+.aside {
+    float: left;
+    background-color: #FFAE42;
+    width: 225px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.aside img {
+    width: 100%;
+}
+
+.caption {
+    font-style: italic;
+}
+
+.blockquote {
+    float: right;
+    background-color: #9EAEB3;
+    width: 300px;
+    padding: 15px;
+    margin: 15px;
+
 }

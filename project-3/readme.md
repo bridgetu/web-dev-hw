@@ -55,3 +55,8 @@ My site will echo the clean, modern, minimalistic style of the book. It is clean
 ![a flower with love: page example 1](./images/book_page_1.jpg)
 ![a flower with love: page example 1](./images/book_page_2.jpg)
 ![a flower with love: page example 1](./images/book_page_3.jpg)
+
+---
+## MY FINAL THOUGHTS ON PROJECT 3
+
+### This project presented me with many challenges. However, the outcome was so much more rewarding than our previous projects. The introduction of CSS allowed much more room for creative freedom. This felt good! My sight looks a little basic, a little blocky, a little flat... but it took on this sort of retro aesthetic that I think echo's the look of my chosen book (published in 1973). I enjoyed being able to integrate original graphics through the creation of a simple logo. 
